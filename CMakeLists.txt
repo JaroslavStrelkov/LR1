@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.28.3)
-project(sanitize)
+project("Gtest")
+find_package (GTest REQUIRED)
+add_executable(a.out Task_3.cpp)
+target_link_libraries(a.out ${GTEST_LIBRARIES})
 
-set(CMAKE_CXX_STANDARD 17) 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address -g")
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=leak -g")
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=thread -g")
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsantize=undefined -g")
-add_executable (LR1 Task_3.cpp)
+#ctest
+enable_testing()
+add_test (add a.out)
+
