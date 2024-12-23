@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Task_2.dir/main.cpp.o CMakeFiles/Task_2.dir/meny.cpp.o CMakeFiles/Task_2.dir/input.cpp.o CMakeFiles/Task_2.dir/output.cpp.o CMakeFiles/Task_2.dir/dobavlenie.cpp.o CMakeFiles/Task_2.dir/reshenie.cpp.o CMakeFiles/Task_2.dir/delete_change.cpp.o -o Task_2 

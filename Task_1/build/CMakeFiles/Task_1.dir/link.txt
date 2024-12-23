@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Task_1.dir/main.cpp.o CMakeFiles/Task_1.dir/input.cpp.o CMakeFiles/Task_1.dir/output.cpp.o CMakeFiles/Task_1.dir/dobavlenie.cpp.o CMakeFiles/Task_1.dir/find.cpp.o CMakeFiles/Task_1.dir/delete_change.cpp.o CMakeFiles/Task_1.dir/sort.cpp.o CMakeFiles/Task_1.dir/file_operations.cpp.o -o Task_1 
